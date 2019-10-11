@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <title>Carousel Gallery Slider</title>
     <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600">
+
+    <style type="text/css">
+        *{margin: 0px;}
+        body{
+            background: url(https://cdn1.safari.com/media/thumbnails/products/big-five-cover-image-Recovered.jpg.1920x500_q70_crop-scale.jpg) no-repeat;
+            background-size:inherit;
+            height:100vh;
+            background-position: left;
+        }
+        .header{
+            width: 100%;
+            background-color: rgba(241, 234, 234, 0.5);
+        }
+        .header ul{
+            text-align: center;
+        }
+        .header ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .header ul li a{
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgba(255, 0, 0, 0.945);
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            font-weight: 1000;
+            padding: 25px;
+            transition: all ease 0.5s;
+        }
+        .header ul li a:hover{
+            background-color:rgba(255, 0, 0, 0.3)
+        }
+    </style>
 </head>
 <body>
+<div class="header">
+    <ul>
+        <li><a href="#">Millstock House</a></li>
+    </ul>
+</div>
 <div class="galleryContainer">
     <div class="slideShowContainer">
         <div id="playPause" onclick="playPauseSlides()"></div>
