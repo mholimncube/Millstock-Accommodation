@@ -29,7 +29,7 @@
             display: block;
             text-decoration: none;
             text-transform: uppercase;
-            color: rgba(255, 0, 0, 0.945);
+            color: black; /* rgba(255, 0, 0, 0.945);*/
             font-size: 20px;
             font-family: 'Raleway', sans-serif;
             letter-spacing: 2px;
@@ -38,14 +38,29 @@
             transition: all ease 0.5s;
         }
         .header ul li a:hover{
-            background-color:rgba(255, 0, 0, 0.3)
+            background-color:rgba(255, 0, 0, 0.3);
+        }
+        .header ul li ul li{
+            display: none;
+        }
+        .header ul li:hover ul li{
+            display: block;
         }
     </style>
 </head>
 <body>
 <div class="header">
     <ul>
-        <li><a href="#">Millstock House</a></li>
+        <li><a href="#">The Millstock</a></li>
+        <li><a href="#">How to Apply</a>
+        <ul>
+            <li><a>Online Applications now open</a></li>
+            <li><a>WhatsApp contact</a></li>
+            <li><a>0636424898</a></li>
+
+        </ul>
+        
+        </li>
     </ul>
 </div>
 <div class="galleryContainer">
