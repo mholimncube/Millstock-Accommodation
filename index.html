@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Carousel Gallery Slider</title>
+    <title>The Millstock Luxury Student Accommodation</title>
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600">
 
@@ -18,10 +18,21 @@
             width: 100%;
             background-color: rgba(241, 234, 234, 0.5);
         }
+        .footer{
+            width: 100%;
+            background-color: rgba(241, 234, 234, 0.5);
+        }
         .header ul{
             text-align: center;
         }
+        .footer ul{
+            text-align: center;
+        }
         .header ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .footer ul li{
             list-style: none;
             display: inline-block;
         }
@@ -30,6 +41,18 @@
             text-decoration: none;
             text-transform: uppercase;
             color: black; /* rgba(255, 0, 0, 0.945);*/
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            font-weight: 1000;
+            padding: 25px;
+            transition: all ease 0.5s;
+        }
+        .footer ul li a{
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgba(255, 0, 0, 0.945);
             font-size: 20px;
             font-family: 'Raleway', sans-serif;
             letter-spacing: 2px;
@@ -53,13 +76,11 @@
     <ul>
         <li><a href="#">The Millstock</a></li>
         <li><a href="#">How to Apply</a>
-        <ul>
-            <li><a>Online Applications now open</a></li>
-            <li><a>WhatsApp contact</a></li>
-            <li><a>0636424898</a></li>
-
-        </ul>
-        
+            <ul>
+                <li><a>Online Applications now open</a></li>
+                <li><a>WhatsApp contact</a></li>
+                <li><a>0636424898</a></li>
+            </ul>
         </li>
     </ul>
 </div>
@@ -103,6 +124,11 @@
         </div>
     </div>
     <div id="dotsContainer"></div>
+</div>
+<div class="footer">
+    <ul>
+        <li><a href="#">Luxury Student Accommodation</a></li>
+    </ul>
 </div>
 <script src="myScript.js"></script>
 </body>
